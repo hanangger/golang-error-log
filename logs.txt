@@ -1,0 +1,9 @@
+C:/go/bin/go.exe build -i [C:/Go/src/test]
+# test
+c:\go\src\test\intro.go:8: main redeclared in this block
+	previous declaration at c:\go\src\test\hello.go:10
+
+TRIGGER : MULTIPLE main class in one package.
+TO SOLVE : USE ONLY ONE MAIN CLASS IN PACKAGE.
+
+==========================================================================
